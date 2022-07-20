@@ -5,6 +5,6 @@
 ```
 yarn global add typescript// 第一步
 tsc --init// 第二步，呼出tsconfig.json文件
-"outDir": "dist",// 将该项修改为dist
+"outDir": "dist",// 第三步，将该项修改为dist
 tsc -p .// 编译完成
 ```
