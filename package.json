@@ -1,0 +1,25 @@
+{
+  "name": "fanyi-deibo",
+  "version": "0.0.1",
+  "main": "main.ts",
+  "license": "MIT",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node": "^18.0.6"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "global": "^4.4.0",
+    "md5": "^2.3.0",
+    "typescript": "^4.7.4"
+  }
+}
